@@ -1,0 +1,103 @@
+<!--I JUST WANNNA SUBMISSION AND WHEN I GET A LEISURE TIME I'LL FIX THIS. I APOLOGIZE REVOU BECAUSE THE DEADLINE IS NOW-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+    <link rel="script" href="index.js"
+</head>
+<!--Header-->
+<header class="container1">
+<span class='span1'>Katik</span>&nbsp;
+<span class='span2'>Kalkulator Matematik</span>
+</header>
+<!--Header Finish-->
+<br/>
+<!--body-->
+<body class="body">
+
+  <div class="container-welcome">
+    <br/>
+    <h2>Welcome to Katik</h2>
+    <p>Hai Sobat, Selamat datang di Katik</p>
+    <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+    <br/>
+
+<!--Content1-->
+    <div class="box1">Luas Persegi</div>
+    <div class="box2">
+    <div class="square"></div>
+    <br/>
+    <p style="text-align: left;" auto;">&nbsp; Rumus Luas Persegi yaitu:</p>
+    <p style="text-align: center;" auto;"> L = S x S</p>
+    <p style="text-align: left;" auto;">&nbsp; Dimana:</p>
+    <p style="text-align: left;" auto;">&nbsp; L = Luas</p>
+    <p style="text-align: left;" auto;">&nbsp; S = Sisi</p>
+    <hr/>
+    <br/>
+    <h3>Hitung Luas Persegi</h3>
+    <br/>
+    <p>
+      <input input id="sisi-luas" name="sisi-luas" type="number" placeholder="Nilai Sisi" 
+      style=" text-align: left; font-size: 20px; width: 1000px; height: 40px; border-radius: 5px;"
+    </p>
+    <div id="output-luas" name:"output-luas">
+      <p class="text-left">L = S x S<br/>
+      L = <span id="rumus-luas"></span><br/>
+      L= <span id="result-luas"></span></p> 
+  </div>
+    <br/>
+    <br/>
+    
+    
+    <!--<button style="width: 70px; height: 30px; border-radius: 6px; background-color: aqua;">Hitung</button>
+    <br/>
+    <button style="width: 70px; height: 30px; border-radius: 6px; background-color: rgb(230, 247, 0);">Reset</button>
+    </div>
+ 
+<!--Content1 Finish-->
+<br/>
+<br/>
+<!--Content2-->
+<hr>
+<br/>
+    <div class="box3">Keliling Persegi</div>
+    <div class="box4">
+    <div class="square"></div>
+    <br/>
+    <p style="text-align: left;" auto;">&nbsp; Rumus Keliling Persegi yaitu:</p>
+    <p style="text-align: center;" auto;"> K = 4 x S</p>
+    <p style="text-align: left;" auto;">&nbsp; Dimana:</p>
+    <p style="text-align: left;" auto;">&nbsp; K = Keliling</p>
+    <p style="text-align: left;" auto;">&nbsp; S = Sisi</p>
+    <hr/>
+    <br/>
+    <h3>Hitung Keliling Persegi</h3>
+    <br/>
+    <p>
+      <input id="sisi-keliling" name="sisi-keliling" type="number" placeholder="Nilai Sisi" 
+      style=" text-align: left; font-size: 20px; width: 1000px; height: 40px; border-radius: 5px;">
+    </p>
+    <div id="output-keliling" name:"output-keliling">
+        <p class="text-left">K = S x 4<br/>
+        K = <span id="rumus-keliling"></span><br/>
+        K= <span id="result-keliling"></span></p> 
+    </div>
+    <p>
+      <button name="hitung-keliling" onclick="hitungKeliling()">Hitung</button>
+    </p>
+    <p class="text-right">
+      <input type="reset" name="reset-keliling" onclick="resetKeliling(0)">
+    </p>
+    <br/>
+    <br/>
+    
+   
+    </div>
+
+</body>
+</html>
